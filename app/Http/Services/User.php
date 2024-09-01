@@ -29,8 +29,6 @@ class User {
         $isValid = $validation->setData($_REQUEST)->validate($validation->rules());
         $request =  new Request;
 
-        $userData = new self;
-
         $this->username = $request->request('username');
         $this->password = $request->request('password');
         $this->email = $request->request('email');
