@@ -30,7 +30,8 @@ class UserController extends BaseController{
     }
     
     /**
-     * Register the user
+     * Process the form 
+     * @return mixed
      */
     public function register()
     {

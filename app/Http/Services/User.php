@@ -21,6 +21,7 @@ class User {
     /**
      * Create a new user or redirect on error back to the form
      * @param ValidateUserReqest $validation
+     * @return array|mixed
      */
     
     public function createUser(ValidateUserReqest $validation)
