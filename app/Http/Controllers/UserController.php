@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\Request;
-use App\Http\Services\UserService;
+use App\Http\Services\User;
 use App\Http\Validations\ValidateUserReqest;
 
 class UserController extends BaseController{
@@ -12,7 +12,7 @@ class UserController extends BaseController{
     public function __construct()
     {
        parent::__construct();
-       $this->service = new UserService;
+       $this->service = new User;
     }
 
 /** 
