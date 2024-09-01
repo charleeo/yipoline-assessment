@@ -9,7 +9,7 @@ To set this project up you will need the above listed technologies running on yo
 Then open your terminal run the following command <composer update> to install the Smarty template engine. When composer has finished installation, you will get success message.
 
 ## HOW TO RUN
-Runing the application after installation of the dependencies is traight forward. You will need to have PHP to your system environment path (assuming a windows OS). This will allow you to use php command in your terminal. When you are sure about of the above, simply open a terminal and run the following command <php -S 127.0.0.1:8000>. copy the output from the terminal to any browser and that is all.
+Runing the application after installation of the dependencies is traight forward. You will need to have PHP to your system environment path (assuming a windows OS). This will allow you to use php command in your terminal. When you are sure about of the above, simply open a terminal and run the following command -[php -S 127.0.0.1:8000]. copy the output from the terminal to any browser and that is all.
 
 
 The project try as much as possible to follow object oriented approach.
