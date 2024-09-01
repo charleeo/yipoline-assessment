@@ -38,7 +38,7 @@ class User {
        if(!$isValid){
          $data['error'] = true;
          $data['error_messages'] = $validation->messages();
-         $data['user_data'] =            $data['user_data'] = [
+         $data['user_data'] = [
             'username' => $this->username,
             'password' => $this->password,
             'email' => $this->email,
